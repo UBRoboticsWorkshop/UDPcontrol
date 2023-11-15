@@ -1,5 +1,12 @@
 # UDPcontrol
 
+# UDP-method needs Python to send the message.
+
+1. you need to install the library for ur python
+```cmd
+pip install pygame
+```
+
 ## Python Code
 ```python
 import socket
