@@ -13,7 +13,8 @@ pip install pygame
 pip3 install pygame
 ```
 
-2. ## Python Code
+---
+## 2. Python Code
 ```python
 import socket
 import time
@@ -106,7 +107,8 @@ while True:
         sock.sendto(ArrDATA, (UDP_IP, UDP_PORT))
 ```
 
-3. ## Arduino Code
+---
+## 3. Arduino Code
 
 ```cpp
 
