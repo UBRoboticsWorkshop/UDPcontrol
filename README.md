@@ -1,7 +1,7 @@
 # UDPcontrol
 
 ## Python Code
-
+```python
 import socket
 import time
 import pygame
@@ -91,10 +91,11 @@ while True:
         print(time.time())
         ArrDATA = array.array('b',[DATA.x, DATA.y, DATA.a, DATA.b, DATA.ch1, DATA.ch2, DATA.ch3, DATA.ch4])
         sock.sendto(ArrDATA, (UDP_IP, UDP_PORT))
+```
 
 ## Arduino Code
 
-cpp'''
+```cpp
 
 #include <WiFi.h>  //A collection of objects and functions for using WiFi on the ESP32
 
@@ -224,4 +225,4 @@ void loop() {
 
   delay(25);
 }
-'''
+```
