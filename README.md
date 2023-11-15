@@ -2,12 +2,12 @@
 
 # UDP-method needs Python to send the message.
 
-1. you need to install the library for ur python
+## 1. you need to install the library for ur python
 ```cmd
 pip install pygame
 ```
 
-## Python Code
+2. ## Python Code
 ```python
 import socket
 import time
@@ -100,7 +100,7 @@ while True:
         sock.sendto(ArrDATA, (UDP_IP, UDP_PORT))
 ```
 
-## Arduino Code
+3. ## Arduino Code
 
 ```cpp
 
