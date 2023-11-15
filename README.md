@@ -1,10 +1,16 @@
 # UDPcontrol
 
-# UDP-method needs Python to send the message.
+> [!NOTE]
+> UDP-method needs Python to send the message.
 
 ## 1. you need to install the library for ur python
+- for windows:
 ```cmd
 pip install pygame
+```
+- for linux:
+```sh
+pip3 install pygame
 ```
 
 2. ## Python Code
